@@ -16,5 +16,5 @@ public class Palindrome {
 		else{
 			System.out.println( temp + " is not a Palindrome Number ");
 		}  
-		}
+	}
 }
