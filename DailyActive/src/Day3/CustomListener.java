@@ -20,7 +20,8 @@ public class CustomListener extends Base implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
+		System.out.println("Failed Test");
+		failed();
 		
 	}
 
@@ -32,8 +33,7 @@ public class CustomListener extends Base implements ITestListener{
 
 	@Override
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		System.out.println("Failed Test");
-		failed();
+		
 		
 	}
 

@@ -10,3 +10,4 @@ public class RevString {
 	}
 
 }
+//sendkeys or AutoIT

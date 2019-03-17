@@ -20,7 +20,7 @@ public class Base {
 	public void failed() {
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(src, new File("A:\\WorkSpace2\\Gochu\\DailyActive\\scrnshot\\testFailure.png"));
+			FileUtils.copyFile(src, new File("C:\\Users\\priti\\git\\AutomationTask\\DailyActive\\scrnshot.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

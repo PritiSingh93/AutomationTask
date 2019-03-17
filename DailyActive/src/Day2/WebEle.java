@@ -15,5 +15,6 @@ public class WebEle {
 		System.out.println("Value of Text is = "+text);
 		String text1=driver.findElement(By.xpath("//*[@id=\'gbw\']/div/div/div[1]/div[1]/a")).getAttribute("href");
 		System.out.println("VAlue of Attribute is = "+text1);
+		
 	}
 }

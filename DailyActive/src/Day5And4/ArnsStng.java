@@ -13,7 +13,7 @@ public class ArnsStng {
 			
 		}
 		if(temp==c) {
-			System.out.println("Its a ArmsStrong Number");
+			System.out.println(temp+" Its a ArmsStrong Number");
 		}
 		else {
 			System.out.println("Its not a ArmsStrong Number");

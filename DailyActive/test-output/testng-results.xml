@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16521" started-at="2019-03-16T12:23:42Z" finished-at="2019-03-16T12:23:59Z">
+  <suite name="Default suite" duration-ms="11484" started-at="2019-03-16T19:00:06Z" finished-at="2019-03-16T19:00:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16521" started-at="2019-03-16T12:23:42Z" finished-at="2019-03-16T12:23:59Z">
+    <test name="Default test" duration-ms="11484" started-at="2019-03-16T19:00:06Z" finished-at="2019-03-16T19:00:17Z">
       <class name="Day3.ScreenShotFa">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Day3.ScreenShotFa@1d8d30f7]" name="setUp" is-config="true" duration-ms="15733" started-at="2019-03-16T12:23:42Z" finished-at="2019-03-16T12:23:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Day3.ScreenShotFa@1d8d30f7]" name="setUp" is-config="true" duration-ms="10116" started-at="2019-03-16T19:00:06Z" finished-at="2019-03-16T19:00:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="takeScreenShot()[pri:0, instance:Day3.ScreenShotFa@1d8d30f7]" name="takeScreenShot" duration-ms="14" started-at="2019-03-16T12:23:58Z" finished-at="2019-03-16T12:23:58Z">
+        <test-method status="FAIL" signature="takeScreenShot()[pri:0, instance:Day3.ScreenShotFa@1d8d30f7]" name="takeScreenShot" duration-ms="14" started-at="2019-03-16T19:00:16Z" finished-at="2019-03-16T19:00:16Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -56,7 +56,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:Day3.ScreenShotFa@1d8d30f7]" name="tearUp" is-config="true" duration-ms="714" started-at="2019-03-16T12:23:58Z" finished-at="2019-03-16T12:23:59Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:Day3.ScreenShotFa@1d8d30f7]" name="tearUp" is-config="true" duration-ms="763" started-at="2019-03-16T19:00:16Z" finished-at="2019-03-16T19:00:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
