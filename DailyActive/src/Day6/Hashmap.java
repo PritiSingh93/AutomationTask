@@ -2,7 +2,8 @@ package Day6;
 
 import java.util.HashMap;
 import java.util.Map;
-
+// HashMap With Example
+//Checked
 public class Hashmap {
 	public static void main(String[] args) {
 		Map<Integer, String> map=new HashMap<Integer, String>();
