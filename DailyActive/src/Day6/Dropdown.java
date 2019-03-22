@@ -4,7 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-
+//How to Select Value from DropDown using Selenium Webdriver
+//Checked
 public class Dropdown {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "A:\\selenium-prerequesite-jar\\chromedriver.exe");
