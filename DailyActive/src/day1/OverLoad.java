@@ -10,7 +10,9 @@ class OverLoad1 {
 }
 public class OverLoad {
 	public static void main(String[] args) {
-		System.out.println(OverLoad1.add(12, 76));
+		System.out.println(OverLoad1.add(12, 100));
 		System.out.println(OverLoad1.add(23, 45, 56));
+		System.out.println(OverLoad1.add(12, 10, 93))
+
 	}
 }
